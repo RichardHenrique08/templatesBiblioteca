@@ -1,8 +1,9 @@
 import React from "react";
+import CardHomeBiblioteca from "./CardHomeBiblioteca";
 
 const HeadersHomeBiblioteca = () => {
   return (
-    <div className="flex justify-center">
+    <div className="flex flex-col justify-center">
       <div className="flex flex-col items-center">
         <h1 className="text-3xl font-semibold mt-10">
           Biblioteca de Templates
@@ -16,6 +17,21 @@ const HeadersHomeBiblioteca = () => {
           consequuntur itaque nam. Sunt illum sapiente voluptatum at minima hic
           tempora ducimus est quis?
         </p>
+      </div>
+      <div className="flex justify-center gap-3 mt-8">
+         <CardHomeBiblioteca
+           imageUrl=""
+           title="Layout Login"
+           description="Login para "
+           buttonText="Read more"
+         />
+         <CardHomeBiblioteca
+           imageUrl=""
+           title="Another Title"
+           description="Another description here."
+           buttonText="Button Text"
+         />
+         {/* Add more CardHomeBiblioteca components with different props as needed */}
       </div>
     </div>
   );

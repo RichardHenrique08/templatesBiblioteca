@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import HeadersHomeBiblioteca from "@/app/Components/Headers/HeadersBiblioteca/HeadersHomeBiblioteca";
+import HeadersHomeBiblioteca from "@/app/Components/Headers/HeadersBiblioteca/Home/HeadersHomeBiblioteca";
 import HeadersLogin from "@/app/Components/Headers/HeadersBiblioteca/HeadersLogin";
 import Sidebar from "@/app/Components/SideBar/SidebarBiblioteca";
 

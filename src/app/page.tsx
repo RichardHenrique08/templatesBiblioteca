@@ -1,5 +1,5 @@
 import NavbarHome from "./Components/Navbar/NavbarHome";
-import HeadersHome from "./Components/Headers/HeadersHome";
+import HeadersHome from "./Components/Headers/HeadersHome/HeadersHome";
 
 export default function Home() {
   return (
