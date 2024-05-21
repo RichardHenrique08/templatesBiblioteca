@@ -19,3 +19,7 @@
     transform: scale(1.2);
     border-bottom: 1px solid #100c47;
 }
+
+.ml-centerBiblio{
+   margin-left: 200%; 
+}
