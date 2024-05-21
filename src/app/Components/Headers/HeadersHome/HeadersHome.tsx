@@ -5,7 +5,7 @@ const HeadersHome = () => {
   return (
     <>
     <div className='relative w-screen'>
-        <Image className='absolute top-32 right-20 ' src={img} width={800} alt='' />
+        <Image className='absolute top-32 right-20 ' src={img} width={600} alt='' />
     </div>
     </>
   );

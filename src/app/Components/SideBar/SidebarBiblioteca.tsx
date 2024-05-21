@@ -9,8 +9,8 @@ interface SidebarProps {
 const Sidebar: React.FC<SidebarProps> = ({ onLoginClick }) => {
   return (
     <div className='flex'>
-      <div className="w-56 h-screen bg-gray-800 text-white flex flex-col">
-        <div className="flex items-center justify-center h-16 bg-gray-900">
+      <div className="w-56 h-screen bg-gray-950  text-white flex flex-col">
+        <div className="flex items-center justify-center h-16 bg-black">
           <h1 className="text-2xl font-semibold">Eae Dev</h1>
         </div>
         <nav className="flex flex-col px-4 py-2 space-y-2">

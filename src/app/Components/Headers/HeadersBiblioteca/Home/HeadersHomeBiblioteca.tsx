@@ -23,13 +23,13 @@ const HeadersHomeBiblioteca = () => {
            imageUrl=""
            title="Layout Login"
            description="Login para "
-           buttonText="Read more"
+           buttonText="Vizualizar"
          />
          <CardHomeBiblioteca
            imageUrl=""
-           title="Another Title"
-           description="Another description here."
-           buttonText="Button Text"
+           title="Layout Login 1"
+           description="Login para"
+           buttonText="Vizualizar"
          />
          {/* Add more CardHomeBiblioteca components with different props as needed */}
       </div>
