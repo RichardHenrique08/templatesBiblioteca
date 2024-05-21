@@ -1,9 +1,12 @@
 import Link from 'next/link';
-
+import Image from 'next/image';
+import img from './Layout.png'
 const HeadersHome = () => {
   return (
     <>
-    <h1></h1>
+    <div className='relative w-screen'>
+        <Image className='absolute top-32 right-20 ' src={img} width={800} alt='' />
+    </div>
     </>
   );
 };

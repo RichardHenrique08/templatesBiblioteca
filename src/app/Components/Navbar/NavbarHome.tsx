@@ -5,8 +5,8 @@ export default function NavbarHome() {
     <>
       <div className="flex justify-between border-b-2 pb-3">
         <div className="">
-          <button className="border border-black rounded-xl px-8 py-1 mt-4 ml-10 font-semibold">
-            Get Start{" "}
+          <button className="border border-black rounded-xl px-8 py-1 mt-4 ml-10 font-semibold hover:bg-slate-950 hover:text-white transition duration-300 ease-in-out ">
+            Get Started{" "}
           </button>
         </div>
         <ul className="flex gap-8  text-xl font-bold mr-20 mt-4 ">
